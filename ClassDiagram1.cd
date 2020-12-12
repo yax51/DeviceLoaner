@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Capstone.About">
+    <Position X="1.5" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="button1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capstone.AddDevice">
+    <Position X="4.75" Y="7.5" Width="2" />
+    <Members>
+      <Field Name="AddDeviceButton" Hidden="true" />
+      <Field Name="AssetBox" Hidden="true" />
+      <Field Name="AssetLabel" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DescriptionBox" Hidden="true" />
+      <Field Name="DescriptionLabel" Hidden="true" />
+      <Field Name="DeviceNameBox" Hidden="true" />
+      <Field Name="DeviceNameLabel" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>JAAAAAAAAGAAAACAABGBAAACAAEAAAAAAAABAEAAAAA=</HashCode>
+      <FileName>AddDevice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capstone.CheckOut">
+    <Position X="1.25" Y="2.75" Width="1.75" />
+    <Members>
+      <Field Name="AnticipatedDate" Hidden="true" />
+      <Field Name="AnticipatedDatePicker" Hidden="true" />
+      <Field Name="BadgeBox" Hidden="true" />
+      <Field Name="BadgeLabel" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DeptBox" Hidden="true" />
+      <Field Name="DeviceLabel" Hidden="true" />
+      <Field Name="DeviceListBox" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="NameBox" Hidden="true" />
+      <Field Name="NameLabel" Hidden="true" />
+      <Field Name="NotesBox" Hidden="true" />
+      <Field Name="NotesLabel" Hidden="true" />
+      <Field Name="OutDateLabel" Hidden="true" />
+      <Field Name="OutDatePicker" Hidden="true" />
+      <Field Name="SaveButton" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BBQAAAAAASBAAhAQABCIAAoPAAAAABAAAQBAAAEAAAI=</HashCode>
+      <FileName>CheckOut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capstone.EditDevice">
+    <Position X="8.5" Y="7" Width="1.75" />
+    <Members>
+      <Field Name="AssetBox" Hidden="true" />
+      <Field Name="AssetLabel" Hidden="true" />
+      <Field Name="CancelButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="descriptBox" Hidden="true" />
+      <Field Name="DescriptionLabel" Hidden="true" />
+      <Field Name="DeviceNameBox" Hidden="true" />
+      <Field Name="DeviceNameLabel" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="IdLabel" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="SaveButton" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>JBAIAAAAAGAAAACAABCAAAgCQQEAAAAAAAABBAAAAAA=</HashCode>
+      <FileName>EditDevice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capstone.History">
+    <Position X="8.5" Y="2.75" Width="1.75" />
+    <Members>
+      <Field Name="CloseButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DeviceLabel" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="HistoryTable" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="SearchBox" Hidden="true" />
+      <Field Name="SearchButton" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgIKIBAAACAAAAAAAAKAAEADAAQEQAAAAIAAAgAAAAI=</HashCode>
+      <FileName>History.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capstone.Inventory">
+    <Position X="1.75" Y="7.5" Width="2" />
+    <Members>
+      <Field Name="AddButton" Hidden="true" />
+      <Field Name="BackButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="EditButton" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="InventoryTable" Hidden="true" />
+      <Field Name="RemoveButton" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAKAAAAACAAAAAACBCBAEACAAAAACAAAEAAAKAAQAQ=</HashCode>
+      <FileName>Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capstone.MainForm">
+    <Position X="4.25" Y="2.75" Width="3" />
+    <Members>
+      <Field Name="aboutToolStripMenuItem" Hidden="true" />
+      <Field Name="addDeviceToolStripMenuItem1" Hidden="true" />
+      <Field Name="CheckInButton" Hidden="true" />
+      <Field Name="CheckOutButton" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DeviceOnLoanTable" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="exitToolStripMenuItem" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="InventoryButton" Hidden="true" />
+      <Field Name="inventoryMenuItem" Hidden="true" />
+      <Field Name="inventoryToolStripMenuItem" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="toolStripMenuItem1" Hidden="true" />
+      <Field Name="toolStripMenuItem2" Hidden="true" />
+      <Field Name="toolStripMenuItem3" Hidden="true" />
+      <Field Name="ViewDeviceButton" Hidden="true" />
+      <Field Name="viewDeviceHistoryToolStripMenuItem" Hidden="true" />
+    </Members>
+    <AssociationLine Name="Inventory" Type="Capstone.Inventory" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="6.812" />
+        <Point X="3.406" Y="6.812" />
+        <Point X="3.406" Y="7.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="EditDevice" Type="Capstone.EditDevice" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.688" Y="7.127" />
+        <Point X="6.688" Y="7.438" />
+        <Point X="6.812" Y="7.438" />
+        <Point X="6.812" Y="7.688" />
+        <Point X="8.5" Y="7.688" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQCSFAkIAiGBBBECgACCgECKAAAIEAAAAkSDAgAggAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Inventory" />
+      <Property Name="AddDevice" />
+      <Property Name="EditDevice" />
+      <Property Name="CheckOut" />
+      <Property Name="History" />
+      <Property Name="About" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Capstone.Splash">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="slider" Hidden="true" />
+      <Field Name="timer1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACACABAABACAAAACAAAAIAAAAAAEAQAAAAA=</HashCode>
+      <FileName>Splash.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
